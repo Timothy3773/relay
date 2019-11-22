@@ -1,0 +1,20 @@
+{
+  "name": "relay",
+  "version": "1.0.0",
+  "main": "client.js",
+  "author": "Jonathan Scott",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "nodemon client.js"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "fs-extra": "^8.1.0",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "screenshots": "^1.0.2"
+  }
+}
